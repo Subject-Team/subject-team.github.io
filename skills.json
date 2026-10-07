@@ -1,0 +1,25 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "skills": [
+    {
+      "source": "devmartinese/awwwards-animations-skill",
+      "skills": ["awwwards-animations"]
+    },
+    {
+      "source": "greensock/gsap-skills",
+      "skills": ["gsap-scrolltrigger", "gsap-performance", "gsap-timeline", "gsap-core", "gsap-react"]
+    },
+    {
+      "source": "alton47/threejs-skills",
+      "skills": ["threejs-core", "threejs-performance", "threejs-materials"]
+    },
+    {
+      "source": "anthropics/skills",
+      "skills": ["frontend-design"]
+    },
+    {
+      "source": "schalkneethling/webdev-agent-skills",
+      "skills": ["css-tokens", "css-coder"]
+    }
+  ]
+}

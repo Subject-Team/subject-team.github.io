@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default: Dark Theme (Obsidian & Titanium) */
+  --bg-primary: #0A0B0E;
+  --bg-secondary: #12141A;
+  --bg-tertiary: #1A1D24;
+  --surface-card: #12141A;
+  --surface-hover: #191C23;
+  --border-hairline: #20242D;
+  --border-active: #2C323E;
+  
+  --text-primary: #F3F4F6;
+  --text-secondary: #9CA3AF;
+  --text-muted: #6B7280;
+  
+  --accent-electric: #0066FF;
+  --accent-electric-glow: rgba(0, 102, 255, 0.35);
+  --accent-electric-subtle: rgba(0, 102, 255, 0.08);
+  
+  --titanium-highlight: #E5E7EB;
+  --titanium-raw: #8A909D;
+  --titanium-dark: #262932;
+  
+  --grid-line: rgba(255, 255, 255, 0.04);
+}
+
+html:not(.dark) {
+  /* Light Theme (Industrial Chalk White - Teenage Engineering Style) */
+  --bg-primary: #F4F5F7;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #EBECEF;
+  --surface-card: #FFFFFF;
+  --surface-hover: #F8F9FA;
+  --border-hairline: #DCDFE4;
+  --border-active: #C2C6CF;
+  
+  --text-primary: #111215;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+  
+  --accent-electric: #0052CC;
+  --accent-electric-glow: rgba(0, 82, 204, 0.25);
+  --accent-electric-subtle: rgba(0, 82, 204, 0.06);
+  
+  --titanium-highlight: #1F2937;
+  --titanium-raw: #6B7280;
+  --titanium-dark: #D1D5DB;
+  
+  --grid-line: rgba(0, 0, 0, 0.04);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Technical Hairline Grid Background */
+.bg-technical-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+}
+
+/* Mechanical Hardware Card Borders */
+.hardware-panel {
+  background-color: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  position: relative;
+  transition: border-color 0.15s ease, background-color 0.2s ease;
+}
+
+.hardware-panel:hover {
+  border-color: var(--border-active);
+}
+
+/* Fast Response Button (Apple WWDC 0ms input latency) */
+.btn-pressable {
+  touch-action: manipulation;
+  transition: transform 0.08s cubic-bezier(0, 0, 0.2, 1), background-color 0.15s ease;
+}
+
+.btn-pressable:active {
+  transform: scale(0.975);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-active);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-electric);
+}
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

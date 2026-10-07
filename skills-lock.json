@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "skills": {
+    "awwwards-animations": {
+      "source": "devmartinese/awwwards-animations-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "10574282bd24f42072059efa58cfce6ff3a80347505eb191af55544426fe4c3a"
+    },
+    "component-scaffolding": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "component-scaffolding/SKILL.md",
+      "computedHash": "33b10c69833f9cb412b9b52c69b00640a02f9b3dc975a943e521d5f067e637ef"
+    },
+    "component-usage-analysis": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "component-usage-analysis/SKILL.md",
+      "computedHash": "da30d792de06adb841efc007408539e17190945a4c2397358e428d6e6a1daeee"
+    },
+    "css-coder": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "css-coder/SKILL.md",
+      "computedHash": "e5cb00c1511ebb5eb7b035777977dd3b666635f7ebf2218f4734be8a955461ae"
+    },
+    "css-tokens": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "css-tokens/SKILL.md",
+      "computedHash": "a69615a0f4af7acfaa1c971bdda2e536523a9121e1da86d76764267cf047e380"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "106acf230014cbb43ca34e6410371321b56ca742f9ee0442e8ec05bf02eb0384"
+    },
+    "frontend-security": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "frontend-security/SKILL.md",
+      "computedHash": "e8d405042bb53c7b1a87523b01a6e7d219c31627679a4e92f8b32abbde4cbbc9"
+    },
+    "frontend-testing": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "frontend-testing/SKILL.md",
+      "computedHash": "c167deacb8f9cf7f03372afa812eb20fa4f1e2e6ddc7c6fbcb68851050f41f4e"
+    },
+    "gsap-core": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-core/SKILL.md",
+      "computedHash": "b891c9ed42d9319685250231085ebe21538f2c844613b277b9dd2b3ff529a542"
+    },
+    "gsap-frameworks": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-frameworks/SKILL.md",
+      "computedHash": "08b3917649997d53f94a9831b5db21afafafc89ee3a9a020d2471c69c336bdd6"
+    },
+    "gsap-performance": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-performance/SKILL.md",
+      "computedHash": "da73dbf11663abb1a880e1796367f84b19877db4a16186b36d1dce96fe0ce983"
+    },
+    "gsap-plugins": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-plugins/SKILL.md",
+      "computedHash": "50a320904c3053a1a7d01ea95235944814d18c0b5958f17e38046504aa6078a8"
+    },
+    "gsap-react": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-react/SKILL.md",
+      "computedHash": "255206fb6a4a079ad73b4a12e7c63197dc451a8549c7ac4e852b50ff74ef3bd6"
+    },
+    "gsap-scrolltrigger": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-scrolltrigger/SKILL.md",
+      "computedHash": "358dd3381c74fc4be8db5a94e0cd008bf0fa7c1ccd45999671b0d61b9d9ffd9b"
+    },
+    "gsap-timeline": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-timeline/SKILL.md",
+      "computedHash": "e7c07909bb427f74e1bda1ff716bd97ae166269382f7abbd649c0d1ba8f6e0ec"
+    },
+    "gsap-utils": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-utils/SKILL.md",
+      "computedHash": "72af4a036d417d6eaef7478eca2f28e760631fb78db822ba34a9c706797aab62"
+    },
+    "semantic-html": {
+      "source": "schalkneethling/webdev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "semantic-html/SKILL.md",
+      "computedHash": "a43d24feeee703a724d8e55e87b445d97e15812deb362750b7c358144713cdc3"
+    }
+  }
+}
