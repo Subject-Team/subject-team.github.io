@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-const repoName = 'SubjectTeamWebsite';
-
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
   reactStrictMode: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || (isProd ? `/${repoName}` : ''),
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   images: {
     unoptimized: true,
   },
